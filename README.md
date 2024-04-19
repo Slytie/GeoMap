@@ -41,9 +41,4 @@ The `GeoMap` model comprises several key components each responsible for a speci
   - `Cx`: Coordinates for positional embeddings, shape `(batch_size, num_wells, 2)`.
 - **Output**:
   - A tensor of predicted well logs with shape `(batch_size, output_height, output_width)`.
-
-## Usage
-The model can be instantiated and used within a PyTorch training loop or inference pipeline. Ensure that the input tensors are correctly formatted and normalized as required by the model's design.
-
-## Conclusion
-The `GeoMap` model is an advanced tool for geospatial data analysis, particularly in the domain of well logging. Its use of CNNs, transformers, and a deconvolutional network allows it to effectively model complex spatial relationships and dependencies in large-scale geological data.
+ 
