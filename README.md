@@ -1,7 +1,7 @@
 # GeoMap Model Documentation
 
 ## Overview
-The `GeoMap` model is a sophisticated neural architecture designed to predict well logs from contextual geological data. It leverages a combination of convolutional neural networks (CNNs), transformers, and deconvolutional networks to process spatial and sequential data effectively. This model is modified Convolutional Conditional Neural Processes, aimed at improving predictions of oil reserves in geospatial tasks with well log measurements.
+The `GeoMap` model is a modified Convolutional Conditional Neural Processes designed to predict oil reserves from contextual geological data. It leverages a combination of convolutional neural networks (CNNs), transformers, and deconvolutional networks to predict spatial probability maps.
 
 ## Model Architecture
 The `GeoMap` model comprises several key components each responsible for a specific aspect of the learning process:
